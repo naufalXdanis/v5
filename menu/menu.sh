@@ -253,8 +253,9 @@ export sem=$( curl -s https://raw.githubusercontent.com/naufalXdanis/v5/main/ver
 export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
+figlet 'NaufalXdanis'
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │                  ${BIWhite}${UWhite}FAJRI TUNNEL${NC}"
+echo -e "${BICyan} │                  ${BIWhite}${UWhite}NAUFAL & DANIS${NC}"
 echo -e "${BICyan} │"
 echo -e "${BICyan} │  ${BICyan}OS        :  ${BIYellow}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
 echo -e "${BICyan} │  ${BICyan}CPU       :  ${BIYellow}$cpu_usage${NC}"
@@ -264,7 +265,7 @@ echo -e "${BICyan} │  ${BICyan}RAM       :  ${BIYellow}$totalram MB${NC}"
 echo -e "${BICyan} │  ${BICyan}SWAP RAM  :  ${BIYellow}$uram / $tram MB${NC}"
 echo -e "${BICyan} │  ${BICyan}IP-VPS    :  ${BIYellow}$IPVPS${NC}"
 echo -e "${BICyan} │  ${BICyan}REBOOT    :  ${BIYellow}00:00 ( Jam 12 malam )${NC}"
-echo -e "${BICyan} │  ${BICyan}WHATSAP   :  ${BIYellow}+62 851-7313-0440${NC}"
+echo -e "${BICyan} │  ${BICyan}WHATSAP   :  ${BIYellow}0851-7313-0440${NC}"
 echo -e "${BICyan} │  ${BICyan}DEVELOVER :  ${BIYellow}Naufall & Danis${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}" 
